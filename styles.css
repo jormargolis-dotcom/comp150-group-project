@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+body {
+    background-color: #E8E3FA;
+    color: #51466B;
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #6849A2;
+    text-align: center;
+}
+
+h2 {
+    color: #6849A2;
+    border-bottom: 2px solid #A78BD5;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+a {
+    color: #7650B5;
+}
+
+#intro {
+    text-align: center;
+    font-style: italic;
+}
+
+.pictures img {
+    width: 28%;
+    margin: 1%;
+    border: 3px solid #A78BD5;
+    border-radius: 8px;
+}
+
+#ending {
+    text-align: center;
+    margin-top: 40px;
+}
