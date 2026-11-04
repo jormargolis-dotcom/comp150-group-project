@@ -127,120 +127,67 @@ p {
 
 
 /* =========================
-   TEAM MEMBER LINKS
-   ========================= */
+  /* TEAM MEMBER CARDS */
 
-/* This creates the colorful "cards" around the names */
-
-body > p:has(a[href*="jormargolis"]),
-body > p:has(a[href*="sebasxtc"]),
-body > p:has(a[href*="hannahhwze"]) {
-
+.team-card {
     display: inline-block;
-
     margin: 12px 10px 12px 0;
-
     padding: 15px 28px;
 
     border-radius: 18px;
-
     background: white;
 
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
 
     transition: all 0.3s ease;
+
+    text-align: center;
+    min-width: 95px;
 }
 
-
-/* Hover effect */
-
-body > p:has(a[href*="jormargolis"]):hover,
-body > p:has(a[href*="sebasxtc"]):hover,
-body > p:has(a[href*="hannahhwze"]):hover {
-
+.team-card:hover {
     transform: translateY(-6px) scale(1.03);
-
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 
-/* =========================
-   JORDAN
-   ========================= */
+/* JORDAN */
 
-a[href*="jormargolis"] {
-
+.jordan-link {
     font-family: 'Pacifico', cursive;
-
     color: #ff4d6d;
-
     font-size: 27px;
-
     text-decoration: none;
-
-    transition: 0.3s;
 }
 
 
-a[href*="jormargolis"]:hover {
+/* SEBASTIAN */
 
-    color: #ff1744;
-
-    text-shadow: 0 0 12px rgba(255, 77, 109, 0.4);
-}
-
-
-/* =========================
-   SEBASTIAN
-   ========================= */
-
-a[href*="sebasxtc"] {
-
+.sebastian-link {
     font-family: 'Righteous', cursive;
-
     color: #7b2cbf;
-
     font-size: 28px;
-
     text-decoration: none;
-
-    transition: 0.3s;
 }
 
 
-a[href*="sebasxtc"]:hover {
+/* HANNAH */
 
-    color: #5a189a;
-
-    text-shadow: 0 0 12px rgba(123, 44, 191, 0.4);
-}
-
-
-/* =========================
-   HANNAH
-   ========================= */
-
-a[href*="hannahhwze"] {
-
+.hannah-link {
     font-family: 'Playfair Display', serif;
-
     font-weight: 700;
-
     color: #0096c7;
-
     font-size: 28px;
-
     text-decoration: none;
-
-    transition: 0.3s;
 }
 
 
-a[href*="hannahhwze"]:hover {
+/* MOBILE */
 
-    color: #0077b6;
-
-    text-shadow: 0 0 12px rgba(0, 150, 199, 0.4);
+@media (max-width: 700px) {
+    .team-card {
+        display: inline-block;
+    }
 }
 
 
