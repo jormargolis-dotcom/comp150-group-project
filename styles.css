@@ -134,7 +134,7 @@ p {
 
 body > p:has(a[href*="jormargolis"]),
 body > p:has(a[href*="sebasxtc"]),
-body > p:has(a[href*="PASTE-MEMBER-3"]) {
+body > p:has(a[href*="hannahhwze"]) {
 
     display: inline-block;
 
@@ -156,7 +156,7 @@ body > p:has(a[href*="PASTE-MEMBER-3"]) {
 
 body > p:has(a[href*="jormargolis"]):hover,
 body > p:has(a[href*="sebasxtc"]):hover,
-body > p:has(a[href*="PASTE-MEMBER-3"]):hover {
+body > p:has(a[href*="hannahhwze"]):hover {
 
     transform: translateY(-6px) scale(1.03);
 
@@ -220,7 +220,7 @@ a[href*="sebasxtc"]:hover {
    HANNAH
    ========================= */
 
-a[href*="PASTE-MEMBER-3"] {
+a[href*="hannahhwze"] {
 
     font-family: 'Playfair Display', serif;
 
@@ -236,7 +236,7 @@ a[href*="PASTE-MEMBER-3"] {
 }
 
 
-a[href*="PASTE-MEMBER-3"]:hover {
+a[href*="hannahhwze"]:hover {
 
     color: #0077b6;
 
